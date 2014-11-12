@@ -248,8 +248,8 @@ public class Desktop {
 		        System.out.println("The URL is " + url);	
 		        System.out.println("Image Name " +name);
 		        driver.get(url);
-		        
-		        
+		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
+		        driver.get(url);
 		       
 		       
 		        	
