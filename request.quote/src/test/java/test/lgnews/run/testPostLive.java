@@ -485,6 +485,7 @@ public class testPostLive {
 		 caps.setCapability("platform", "ANDROID");
 		 caps.setCapability("device", "Amazon Kindle Fire 2");
 		 caps.setCapability("browserstack.debug", "true");
+		 caps.setCapability("browserstack.local", "true");
 		 caps.setCapability("acceptSslCerts", "true");
 		    driver = new RemoteWebDriver(new URL(URL), caps);
 	      System.out.println("Let me run tabletKindleFire2");
