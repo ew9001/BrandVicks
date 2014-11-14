@@ -384,7 +384,7 @@ public class Desktop {
 		 caps.setCapability("browserstack.debug", "true");
 		    driver = new RemoteWebDriver(new URL(URL), caps);
 	      System.out.println("Let me run tabletKindleFire2");
-	      driver.get("http://m.yahoo.com");
+	      
 	      
 	      return driver;
 	 }
