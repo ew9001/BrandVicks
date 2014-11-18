@@ -3,7 +3,7 @@
 
 <!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
  
-<suite name="Examples 1" verbose="1">
+<suite name="Examples 11" verbose="1">
     <parameter name="param" value="Laramie"/>
     <test name="ObjectExitTest simple example">
         <parameter name="browser" value="tabletIpad4thGen7"/>
